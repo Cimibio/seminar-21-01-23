@@ -6,7 +6,12 @@ for (int i = 0; i <= 7; i++)
     array[i] = new Random().Next(1,100);
 }
 
-for (int i = 0; i <= 7; i++)
+//for (int i = 0; i <= 7; i++)
+//{
+//    Console.WriteLine("Элемент массива под номером: " + i + " равен: " + array[i]);
+//}
+
+foreach (int i in array)
 {
     Console.WriteLine("Элемент массива под номером: " + i + " равен: " + array[i]);
 }
